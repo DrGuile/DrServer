@@ -21,7 +21,7 @@ async def unload():
 
 async def main():
     await load()
-    await client.start("MTA0NjM1NzYyODM0NDg2MDY3Mg.GdAYYG.58_ZpbxRujw1Mdr0Wh8mtRfmlWWVMaxpD9DVJ0")
+    await client.start(DRSERVER)
 
 @commands.command()
 async def ping(self, dr):
